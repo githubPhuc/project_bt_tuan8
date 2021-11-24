@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace project_bt_tuan8.Areas.Admin.Controllers
 {
+    [Area("admin")]
     public class HomeController : Controller
     {
         public IActionResult Index()
